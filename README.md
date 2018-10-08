@@ -46,17 +46,17 @@ An RTL-SDR dongle must be plugged in for this program to function properly.
 	 -a <null>           Display album/station art
 ### Examples:
 
-Tune to 104.5 MHz:
+Tune to 97.3 MHz:
 
-     $ python ./hdfm.py 104.5
+     $ python ./hdfm.py 97.3
 
-Tune to 104.5 MHz, display album/station artwork, and save all received maps to ./Received Maps/:
+Tune to 97.3 MHz, display album/station artwork, and save all received maps to ./Received Maps/:
 
-     $ python ./hdfm.py -a -s ./Recieved\ Maps/ 104.5
+     $ python ./hdfm.py -a -s ./Recieved\ Maps/ 97.3
 
 Tune to 104.5 MHz, set the ppm correction to 48, and decode HD channel 2 (HD2)
 
-     $ python ./hdfm.py -p 48 -c 1 104.5
+     $ python ./hdfm.py -p 48 -c 1 97.3
 
 ### Compatible Stations
 
